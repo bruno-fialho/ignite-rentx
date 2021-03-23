@@ -21,6 +21,7 @@
     "prettier"
   ],
   "rules": {
+    "prettier/prettier": "error",
     "camelcase": "off",
     "import/no-unresolved": "error",
     "@typescript-eslint/naming-convention": [
@@ -76,8 +77,7 @@
           "**/*.spec.js"
         ]
       }
-    ],
-    "prettier/prettier": "error"
+    ]
   },
   "settings": {
     "import/resolver": {

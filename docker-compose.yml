@@ -22,6 +22,10 @@ services:
       - 9229:9229
     volumes:
       - .:/usr/app
+    links:
+      - database_ignite
+    depends_on: 
+      - database_ignite
 
 volumes:
   pgdata:

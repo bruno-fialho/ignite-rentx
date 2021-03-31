@@ -7,6 +7,11 @@ export class CreateRentals1617195339682 implements MigrationInterface {
         name: "rentals",
         columns: [
           {
+            name: "id",
+            type: "uuid",
+            isPrimary: true,
+          },
+          {
             name: "car_id",
             type: "uuid",
           },
@@ -22,7 +27,7 @@ export class CreateRentals1617195339682 implements MigrationInterface {
           {
             name: "end_date",
             type: "timestamp",
-            default: "now()",
+            isNullable: true,
           },
           {
             name: "expected_return_date",
@@ -31,6 +36,7 @@ export class CreateRentals1617195339682 implements MigrationInterface {
           {
             name: "total",
             type: "numeric",
+            isNullable: true,
           },
           {
             name: "created_at",

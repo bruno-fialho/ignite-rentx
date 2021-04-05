@@ -4,7 +4,7 @@ services:
   database_ignite:
     image: postgres
     container_name: database_ignite
-    restart: always
+    restart: unless-stopped
     ports:
       - 5432:5432
     environment:
@@ -16,7 +16,7 @@ services:
   app:
     build: .
     container_name: rentx
-    restart: always
+    restart: unless-stopped
     ports:
       - 3333:3333
       - 9229:9229

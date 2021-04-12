@@ -13,6 +13,7 @@
     "@types/supertest": "^2.0.11",
     "aws-sdk": "^2.884.0",
     "bcrypt": "^5.0.1",
+    "class-transformer": "^0.4.0",
     "csv-parse": "^4.15.3",
     "dayjs": "^1.10.4",
     "dotenv": "^8.2.0",

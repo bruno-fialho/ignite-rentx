@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@types/supertest": "^2.0.11",
+    "aws-sdk": "^2.884.0",
     "bcrypt": "^5.0.1",
     "csv-parse": "^4.15.3",
     "dayjs": "^1.10.4",

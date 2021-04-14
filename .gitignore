@@ -1,6 +1,7 @@
 /node_modules
 tmp/*
-diagrama.png
+!tmp/.gitkeep
 /coverage
 .env
 /dist
+ormconfig.json

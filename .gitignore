@@ -1,7 +1,10 @@
 /node_modules
+/coverage
+/dist
+.vscode/launch.json
+
 tmp/*
 !tmp/.gitkeep
-/coverage
+
 .env
-/dist
 ormconfig.json
